@@ -15,7 +15,7 @@ monaural beats, and [isochronic tones](https://en.wikipedia.org/wiki/Isochronic_
   - [Encoding and Decoding Overview](#encoding-and-decoding-overview)
   - [Control Frequencies](#control-frequencies)
   - [SpectraStrobe Reference Tone](#spectrastrobe-reference-tone)
-  - [Compatible Audio Formats](#comaptible-audio-formats)
+  - [Compatible Audio Formats](#compatible-audio-formats)
     - [Sample Rate](#sample-rate)
     - [Bit Depth](#bit-depth)
     - [File Formats](#file-formats)
