@@ -34,6 +34,9 @@ monaural beats, and [isochronic tones](https://en.wikipedia.org/wiki/Isochronic_
   - [SpectraStrobe Templates](#spectrastrobe-templates)
     - [Ableton Live](#ableton-live)
     - [Renoise](#renoise)
+  - [SpectraStrobe VST Plugins](#spectrastrobe-vst-plugins)
+    - [Cymatic SpectraStrobe](#cymatic-spectrastrobe)
+    - [Cymatic LFO](#cymatic-lfo)
 
 ## Format Specification
 
@@ -368,3 +371,24 @@ Renoise has slightly more interesting LFO and modulation options out-of-box comp
 considerably more affordable. It works on Windows, MacOs, and Linux. Renoise offers a free restricted version
 with the most notable missing features being: ASIO support on Windows, and rendering to .wav disabled. The paid
 license is quite affordable and paid license upgrades come very infrequently.
+
+### SpectraStrobe VST Plugins
+
+The following VSTs are bespoke VSTs developed primarily for personal use. Right now they are compiled for Windows,
+as the goal is to keep extraneous development effort light, with the desire to focus on content creation
+instead. They are being offered, however, in case others can make use of them. An Audio Units version may be
+created in the future.
+
+[VST Directory](resources/vsts)
+
+#### Cymatic SpectraStrobe
+
+[CymaticSpectraStrobe](resources/vsts/CymaticSpectraStrobe/README.md) is a VST effect used to generate and control
+AdobeStrobe and SpectraStrobe signals that can also modulate the signals with audio input.
+
+#### Cymatic LFO
+
+[CymaticLFO](resources/vsts/CymaticLFO/README.md) is a VST effect that is designed to pair with CymaticSpectraStrobe.
+It can also be used as a general audio/panning modulating LFO. It offers a variety of waveforms and generates frequencies
+from 0 → 100 hz. Use this plug-in to modulate a control tone's brightness or panning. Put multiple instances of
+the plug-in in series to create complex modulations.
