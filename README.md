@@ -24,7 +24,7 @@ A .zip file of the resources directory can be found in the [releases section](ht
     - [File Formats](#file-formats)
       - [Wave Files](#wave-files)
       - [MP3 Files](#mp3-files)
-      - [Flac Files](#flac-files)
+      - [Flac Files (wishlist)](#flac-files-wishlist)
 - [Theory of Operation](#theory-of-operation)
   - [Audio Mixing Theory](#audio-mixing-theory)
     - [Adding SpectraStrobe to the Mix](#adding-spectrastrobe-to-the-mix)
@@ -192,7 +192,7 @@ file sizes at the cost of introducing inaccuracies during audio playback.
 this is not recommended for use with AudioStrobe and SpectraStrobe as this will introduce too many sample
 inaccuracies during playback and likely lead to visual control errors or failure to detect visual control in general.*
 
-##### Flac Files
+##### Flac Files (wishlist)
 
 The [Flac file format (.flac)](https://en.wikipedia.org/wiki/FLAC) would be an ideal format for AVS devices
 since it uses lossless compression to achieve smaller file sizes than .wav files, but allows for sample-perfect
