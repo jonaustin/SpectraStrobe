@@ -35,11 +35,13 @@ monaural beats, and [isochronic tones](https://en.wikipedia.org/wiki/Isochronic_
     - [Ableton Live](#ableton-live)
     - [Renoise](#renoise)
   - [SpectraStrobe VST Plugins](#spectrastrobe-vst-plugins)
-    - [Cymatic SpectraStrobe VST](#cymatic-spectrastrobe-vst)
-    - [Cymatic LFO VST](#cymatic-lfo-vst)
+    - [SpectraStrobe VST](#spectrastrobe-vst)
+    - [LFO VST](#lfo-vst)
+    - [Binaural Tone Generator VST](#binaural-tone-generator-vst)
   - [SpectraStrobe AU Plugins](#spectrastrobe-au-plugins)
-    - [Cymatic SpectraStrobe AU](#cymatic-spectrastrobe-au)
-    - [Cymatic LFO AU](#cymatic-lfo-au)
+    - [SpectraStrobe AU](#spectrastrobe-au)
+    - [LFO AU](#lfo-au)
+    - [Binaural Tone Generator AU](#binaural-tone-generator-au)
 
 ## Format Specification
 
@@ -379,30 +381,42 @@ license is quite affordable and paid license upgrades come very infrequently.
 
 [VST Directory](resources/vsts)
 
-#### Cymatic SpectraStrobe VST
+#### SpectraStrobe VST
 
 [CymaticSpectraStrobe](resources/vsts/CymaticSpectraStrobe/README.md) is a VST effect used to generate and control
 AdobeStrobe and SpectraStrobe signals that can also modulate the signals with audio input.
 
-#### Cymatic LFO VST
+#### LFO VST
 
 [CymaticLFO](resources/vsts/CymaticLFO/README.md) is a VST effect that is designed to pair with CymaticSpectraStrobe.
 It can also be used as a general audio/panning modulating LFO. It offers a variety of waveforms and generates frequencies
 from 0 → 100 hz. Use this plug-in to modulate a control tone's brightness or panning. Put multiple instances of
 the plug-in in series to create complex modulations.
 
+#### Binaural Tone Generator VST
+
+[Cymatic Tone Generator](resources/vsts/CymaticToneGenerator/README.md) is a VST instrument with variable waveforms, base frequency, beat frequency, and a handful of other waveform adjustments. It can
+generate a primary fundamental tone between *0 hz to 1000 hz* and a secondary tone at an offset from the
+fundamental of *0 hz to +100 hz*. It is possible to generate and mix smoothly between monaural and binaural tones.
+
 ### SpectraStrobe AU Plugins
 
 [Audio Units Directory](resources/audiounits)
 
-#### Cymatic SpectraStrobe AU
+#### SpectraStrobe AU
 
 [CymaticSpectraStrobe](resources/audiounits/CymaticSpectraStrobe/README.md) is an Audio Units effect used to generate and control
 AdobeStrobe and SpectraStrobe signals that can also modulate the signals with audio input.
 
-#### Cymatic LFO AU
+#### LFO AU
 
 [CymaticLFO](resources/audiounits/CymaticLFO/README.md) is an Audio Units effect that is designed to pair with CymaticSpectraStrobe.
 It can also be used as a general audio/panning modulating LFO. It offers a variety of waveforms and generates frequencies
 from 0 → 100 hz. Use this plug-in to modulate a control tone's brightness or panning. Put multiple instances of
 the plug-in in series to create complex modulations.
+
+#### Binaural Tone Generator AU
+
+[Cymatic Tone Generator](resources/audiounits/CymaticToneGenerator/README.md) is an Audio Units instrument with variable waveforms, base frequency, beat frequency, and a handful of other waveform adjustments. It can
+generate a primary fundamental tone between *0 hz to 1000 hz* and a secondary tone at an offset from the
+fundamental of *0 hz to +100 hz*. It is possible to generate and mix smoothly between monaural and binaural tones.

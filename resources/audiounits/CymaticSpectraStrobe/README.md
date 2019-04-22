@@ -12,8 +12,7 @@ Cymatic SpectraStrobe has the following parameters:
 | Parameter | Purpose |
 |-----------|---------|
 | Enabled | Whether or not the plug-in is currently generating the selected tone. |
-| Tone Mode | Sets which tone will be output by the plug-in: *AS, SS Ref, SS Red, SS Green, SS Blue* |
-| Tone Smooth | Adds an adjustable smoothing filter to the tone output.A value of 0 disables smoothing. |
+| Tone Mode | Sets which tone will be output by the plug-in: *SS Ref, SS Red, SS Green / AS, SS Blue* |
 | Gain | A gain adjustment of the tone output; controls the LED color brightness. |
 | Gain Smooth | Adds an adjustable smoothing filter to the gain control. A value of 0 disables smoothing.|
 | Input Mix | Determines whether or not track audio will be modulated with the tone signal. |
@@ -26,7 +25,8 @@ Cymatic SpectraStrobe has the following parameters:
 #### AudioStrobe
 
 If you only want to create AudioStrobe content then you will only need a single instance of the plug-in with
-the **tone mode** set to **AS** (AudioStrobe).
+the **tone mode** set to **Green | AS** (AudioStrobe). The green SpectraStrobe tone by itself is the same as
+AudioStrobe.
 
 #### SpectraStrobe
 
@@ -36,13 +36,15 @@ For SpectraStrobe content you will need 4 instances of the plug-in. Each of thes
 on their own audio track in your DAW. One for the reference tone to indicate SpectraStrobe content, and the other
 3 being the color channel controls for: *red, green, and blue*.
 
+There are default presets for the reference and color tones if you'd like to use them.
+
 ***Note:** Do not put multiple instances of the SpectraStrobe plug-in on the same audio track, in series.
 Instances will not allow the tones frequencies to all pass and sum correctly. Instances will only attempt
 to modulate the tracks incoming audio or block it entirely.*
 
 ***Note:** The SpectraStrobe reference tone requires a specific, high-speed panning pattern to be detected. Do not
-attempt to adjust the panning of the audio track that the reference tone plug-in instance is on. It must be a
-stereo audio track.*
+attempt to adjust the panning of the audio track that the reference tone plug-in instance is on. It must be an
+unpanned, stereo audio track.*
 
 ##### Adjusting Color Brightness
 
@@ -131,3 +133,12 @@ in either direction to meet in the middle as needed.
 As a general rule as well as a solution to the second problem, you can always EQ all or most other audio content
 in your mix to remove all energy in frequencies starting around 13 khz and a steep cutoff at 17 khz. AudioStrobe
 and SpectraStrobe tones begin right above 18 khz. This can be achieved with multiband equalizers or steep lowpass filters.
+
+##### Using Auxiliary Sends
+
+Creating individual auxiliary sends/buses in your DAW for each plug-in instance is often a helpful design. Not
+only does it keep the tracks out of the way of the audible portions of your mix, but if you use audio input modulation
+on any of the color channels, it allows you to easily allow one or more audio tracks to modulate colors in a
+controlled way by changing their auxiliary send amount on the respective sends. This way a whole multi-channel
+mic'd set of drums could modulate the red channel by increasing the send amount to the red send on each of the
+mic tracks for the drums, each with individual modulation gain based on send amount.
