@@ -13,6 +13,7 @@ A .zip file of the resources directory can be found in the [releases section](ht
 
 ## Table of Contents
 
+- [SpectraStrobe Devices](#spectrastrobe-devices)
 - [Format Specification](#format-specification)
   - [Encoding and Decoding Overview](#encoding-and-decoding-overview)
   - [Control Frequencies](#control-frequencies)
@@ -44,6 +45,10 @@ A .zip file of the resources directory can be found in the [releases section](ht
     - [SpectraStrobe AU](#spectrastrobe-au)
     - [LFO AU](#lfo-au)
     - [Binaural Tone Generator AU](#binaural-tone-generator-au)
+
+## SpectraStrobe Devices
+
+* [Kasina by Mind Place](https://mindplace.com/)
 
 ## Format Specification
 
