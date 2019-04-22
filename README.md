@@ -9,6 +9,8 @@ stimulus to explore different states of consciousness, typically in an attempt t
 through the use of techniques such as [binaural beats](https://en.wikipedia.org/wiki/Beat_(acoustics)#Binaural_beats),
 monaural beats, and [isochronic tones](https://en.wikipedia.org/wiki/Isochronic_tones).
 
+A .zip file of the resources directory can be found in the [releases section](https://github.com/CymaticLabs/SpectraStrobe/releases).
+
 ## Table of Contents
 
 - [Format Specification](#format-specification)
@@ -332,6 +334,8 @@ of these techniques to creating complex, [modulated](https://en.wikipedia.org/wi
 
 The following is a list of resources that can be used in conjunction with the information presented in this
 document to create AudioStrobe and SpectraStrobe content using digital audio software.
+
+A .zip file of the resources directory can be found in the [releases section](https://github.com/CymaticLabs/SpectraStrobe/releases).
 
 ### SpectraStrobe Tones for Samplers
 
