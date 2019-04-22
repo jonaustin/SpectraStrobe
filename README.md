@@ -387,12 +387,12 @@ license is quite affordable and paid license upgrades come very infrequently.
 
 #### SpectraStrobe VST
 
-[CymaticSpectraStrobe](resources/vsts/CymaticSpectraStrobe/README.md) is a VST effect used to generate and control
+[Cymatic SpectraStrobe](resources/vsts/CymaticSpectraStrobe/README.md) is a VST effect used to generate and control
 AdobeStrobe and SpectraStrobe signals that can also modulate the signals with audio input.
 
 #### LFO VST
 
-[CymaticLFO](resources/vsts/CymaticLFO/README.md) is a VST effect that is designed to pair with CymaticSpectraStrobe.
+[Cymatic LFO](resources/vsts/CymaticLFO/README.md) is a VST effect that is designed to pair with CymaticSpectraStrobe.
 It can also be used as a general audio/panning modulating LFO. It offers a variety of waveforms and generates frequencies
 from 0 → 100 hz. Use this plug-in to modulate a control tone's brightness or panning. Put multiple instances of
 the plug-in in series to create complex modulations.
@@ -409,12 +409,12 @@ fundamental of *0 hz to +100 hz*. It is possible to generate and mix smoothly be
 
 #### SpectraStrobe AU
 
-[CymaticSpectraStrobe](resources/audiounits/CymaticSpectraStrobe/README.md) is an Audio Units effect used to generate and control
+[Cymatic SpectraStrobe](resources/audiounits/CymaticSpectraStrobe/README.md) is an Audio Units effect used to generate and control
 AdobeStrobe and SpectraStrobe signals that can also modulate the signals with audio input.
 
 #### LFO AU
 
-[CymaticLFO](resources/audiounits/CymaticLFO/README.md) is an Audio Units effect that is designed to pair with CymaticSpectraStrobe.
+[Cymatic LFO](resources/audiounits/CymaticLFO/README.md) is an Audio Units effect that is designed to pair with CymaticSpectraStrobe.
 It can also be used as a general audio/panning modulating LFO. It offers a variety of waveforms and generates frequencies
 from 0 → 100 hz. Use this plug-in to modulate a control tone's brightness or panning. Put multiple instances of
 the plug-in in series to create complex modulations.
