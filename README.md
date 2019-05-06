@@ -24,7 +24,6 @@ A .zip file of the resources directory can be found in the [releases section](ht
     - [File Formats](#file-formats)
       - [Wave Files](#wave-files)
       - [MP3 Files](#mp3-files)
-      - [Flac Files (wishlist)](#flac-files-wishlist)
 - [Theory of Operation](#theory-of-operation)
   - [Audio Mixing Theory](#audio-mixing-theory)
     - [Adding SpectraStrobe to the Mix](#adding-spectrastrobe-to-the-mix)
@@ -158,9 +157,7 @@ bit depth of 16 bits per sample. During the audio mixing process it is recommend
 | Precision | File Format | Pro | Con |
 |----------|--------------|---------|-----------|
 | Lossless | .wav | accurate/uncompressed playback | large file size |
-| Lossy | .mp3 | smaller file size | compression artifacts |
-| Lossless | .flac | accurate playback & medium file size | not presently supported |
-
+| Lossy | .mp3 | smaller file size | possible compression artifacts |
 
 There are two main types of digital audio file formats. Those are that are [lossless](https://en.wikipedia.org/wiki/Data_compression#Lossless)
 and those that are [lossy](https://en.wikipedia.org/wiki/Data_compression#Lossy). Lossless formats will perfectly reproduce
@@ -186,18 +183,11 @@ original digital recordings but have the largest file size.
 **Recommended Settings: 44100 hz or 48000 hz, 16 bit, [320 Kbps constant bit rate (CBR)](https://en.wikipedia.org/wiki/Constant_bitrate)**
 
 [MP3 files (.mp3)](https://en.wikipedia.org/wiki/MP3) use varying methods of audio compression to achieve smaller
-file sizes at the cost of introducing inaccuracies during audio playback.
+file sizes at the cost of introducing inaccuracies during audio playback. As long as a **constant bit rate of 320 Kbps** is used, the compression artifacts introduced should be completely neglibable both from a listening perspective and from an LED control signal perspective.
 
 ***Note:** Although it is possible to use both variable bit rate (VRB) and higher compression settings (like 128 Kbps, etc.)
 this is not recommended for use with AudioStrobe and SpectraStrobe as this will introduce too many sample
 inaccuracies during playback and likely lead to visual control errors or failure to detect visual control in general.*
-
-##### Flac Files (wishlist)
-
-The [Flac file format (.flac)](https://en.wikipedia.org/wiki/FLAC) would be an ideal format for AVS devices
-since it uses lossless compression to achieve smaller file sizes than .wav files, but allows for sample-perfect
-playback of digital audio unlike .mp3 files. As of this time of the writing of this content no known AVS devices
-support the .flac file format however (corrections welcome).
 
 ## Theory of Operation
 
