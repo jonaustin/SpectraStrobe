@@ -158,7 +158,7 @@ bit depth of 16 bits per sample. During the audio mixing process it is recommend
 | Precision | File Format | Pro | Con |
 |----------|--------------|---------|-----------|
 | Lossless | .wav | accurate playback | large file size |
-| Lossy | .mp3 | inaccurate playback | smaller file size |
+| Lossy | .mp3 | smaller file size | inaccurate playback |
 | Lossless | .flac | accurate playback & medium file size | not presently supported |
 
 
